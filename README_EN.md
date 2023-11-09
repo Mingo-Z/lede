@@ -2,30 +2,6 @@
 
 I18N: [English](README_EN.md) | [简体中文](README.md)
 
-## Official Channels
-<!--
-如有技术问题需要讨论或者交流，欢迎加入以下群：
-1. QQ 讨论群： Op固件技术研究群 ,号码 891659613 ，加群链接：[点击加入](https://jq.qq.com/?_wv=1027&k=XL8SK5aC "Op固件技术研究群")
-2. TG 讨论群： OP 编译官方大群 ，加群链接：[点击加入](https://t.me/JhKgAA6Hx1 "OP 编译官方大群")
-3. Rockchip RK3568 预编译固件发布 Release 下载更新地址 (包括 H68K )：<https://github.com/coolsnowwolf/lede/releases/tag/20220716>
--->
-
-If you have technical questions for discussion or sharing, feel free to join the following channels:
-1. QQ Group: *OpenWRT Firmware Technical Research Group*, Group Number is `891659613`. Join the group: [Link](https://jq.qq.com/?_wv=1027&k=XL8SK5aC "Op固件技术研究群").
-    -  [Click to download QQ client](https://im.qq.com/pcqq).
-2. Telegram Group: *OpenWRT Firmware Technical Research Group*. Join the group: [Link](https://t.me/JhKgAA6Hx1 "OP 编译官方大群").
-3. Rockchip **RK3568** precompiled firmware release (including H68K): [Click to download](https://github.com/coolsnowwolf/lede/releases/tag/20220716).
-
-<div align="left">
-    <a href="https://item.taobao.com/item.htm?spm=a230r.1.14.11.4bb55247rdHEAP&id=702787603594&ns=1&abbucket=17#detail
-">
-        <img style="margin: 0px 0px 0px 40px;" src="https://github.com/coolsnowwolf/lede/blob/master/doc/h68k.jpg?raw=true" width=600  />
-    </a>
-</div>
-
-4. Rockchip **RK3588** precompiled firmware release (including H68K): [Click to download](https://github.com/coolsnowwolf/lede/releases/tag/20230609).
-
-
 ## Notice
 <!--
 1. **不要用 root 用户进行编译**
@@ -106,18 +82,6 @@ If you have technical questions for discussion or sharing, feel free to join the
    make -j8 download V=s
    make -j1 V=s
    ```
-
-<!--
-本套代码保证肯定可以编译成功。里面包括了 R23 所有源代码，包括 IPK 的。
-
-你可以自由使用，但源码编译二次发布请注明我的 GitHub 仓库链接。谢谢合作！
--->
-
-These commands are supposed to compile the source code successfully.
-All source code of R23 is included, including IPK.
-
-You can use this source code freely, but please link this GitHub repository when redistributing.
-Thank you for your cooperation!
 
 <!--
 二次编译：
@@ -276,54 +240,3 @@ PS > git clone git@github.com:coolsnowwolf/lede.git <your_local_lede_path>
    ```
 5. Reload your shell profile `source ~/.bashrc && bash`, then you can compile normally like Linux.
 
-## Declaration
-<!--
-1. 源代码中绝不含任何后门和可以监控或者劫持你的 HTTPS 的闭源软件， SSL 安全是互联网最后的壁垒。安全干净才是固件应该做到的；
-
-2. 想学习 OpenWrt 开发，但是摸不着门道？自学没毅力？基础太差？怕太难学不会？跟着佐大学 OpenWrt 开发入门培训班助你能学有所成
-报名地址：[点击报名](http://forgotfun.org/2018/04/openwrt-training-2018.html "报名")
-
-3. QCA IPQ60xx 开源仓库地址：<https://github.com/coolsnowwolf/openwrt-gl-ax1800>
-
-4. 存档版本仓库地址：<https://github.com/coolsnowwolf/openwrt>
--->
-1. This source code doesn't contain any backdoors or closed source applications that can monitor/capture your HTTPS traffic. SSL security is the final castle of cyber security. Safety is what a firmware should do.
-2. Want to learn OpenWRT development but don't know how to start? Can't motivate yourself for self-learning? Do not have enough fundamental knowledge? Learn OpenWRT development with Mr. Zuo through his Beginner OpenWRT Training Course. Click [here](http://forgotfun.org/2018/04/openwrt-training-2018.html) to register.
-3. QCA IPQ60xx open source repository: <https://github.com/coolsnowwolf/openwrt-gl-ax1800>
-4. OpenWRT Archive repository: <https://github.com/coolsnowwolf/openwrt>
-
-## Introduction to Software Routers
-<!--
-硬酷R2 - N95/N300迷你四网HomeLab服务器
-
-(商品介绍页面 - 硬酷科技（支持花呗）)：
-
-[预售链接](https://item.taobao.com/item.htm?ft=t&id=719159813003)
-
-[![r1](doc/r1.jpg)](https://item.taobao.com/item.htm?ft=t&id=719159813003)
--->
-Yingku R2 - N95/N300 Mini Four-Network HomeLab Server
-
-(Introduction page - Yingku Technology (support AliPay Huabei)):
-
-[Pre-sale link](https://item.taobao.com/item.htm?ft=t&id=719159813003)
-<div align="left">
-<a href="https://item.taobao.com/item.htm?ft=t&id=719159813003">
-  <img src="doc/r1.jpg" width = "600" alt="" align=center />
-</a>
-</div>
-<br>
-
-## Donation
-
-<!--
-如果你觉得此项目对你有帮助，可以捐助我们，以鼓励项目能持续发展，更加完善
-
- ![star](doc/star.png)
--->
-If this project did helped you, please consider donating to support the development of this project.
-
-<div align="left">    
-  <img src="./doc/star.png" width = "400" alt="" align=center />
-</div>
-<br>
